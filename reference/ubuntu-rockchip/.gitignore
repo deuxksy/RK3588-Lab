@@ -1,0 +1,46 @@
+# Ubuntu Rockchip - OS Build (Linux)
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+*.log
+*.tmp
+build-*/
+*.deb
+*.dsc
+*.changes
+*.tar.gz
+*.tar.xz
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# Live build
+.cache/
+chroot/
+.binary/
+*/
+
+# QEMU
+*.qcow2
+*.img
+
+# Kernel build
+*.o
+*.ko
+*.mod
+Module.symvers
+modules.order
+.tmp_versions/

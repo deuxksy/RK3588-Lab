@@ -1,0 +1,22 @@
+# Orange Pi 5 Plus - Hardware Documentation
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# Build artifacts
+*.log
+*.tmp
